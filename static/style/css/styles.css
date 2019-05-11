@@ -1,0 +1,22 @@
+html {
+	min-height: 100%;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+.content {
+	flex: 1 1 auto;
+	overflow-y: scroll;
+}
+
+.sticky-footer, .sticky-header {
+	flex: 0 0 auto;
+}
