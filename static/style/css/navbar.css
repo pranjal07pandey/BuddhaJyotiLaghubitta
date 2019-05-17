@@ -1,5 +1,4 @@
 .navigation-clean {
-  background: #fff;
   padding-top: .75rem;
   padding-bottom: .75rem;
   color: #333;
@@ -8,8 +7,10 @@
   border: none;
   margin-bottom: 0;
   position: fixed;
-  top: 0px;
+  top: 0;
   width: 100%;
+  background-color: #0aab71;
+  font-size: 1rem;
 }
 
 @media (min-width:768px) {
@@ -21,11 +22,15 @@
 
 .navigation-clean .navbar-brand {
   font-weight: bold;
-  color: inherit;
+  color: white;
 }
 
 .navigation-clean .navbar-brand:hover {
-  color: #222;
+  color: white;
+  background-color: #0aab71;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 .navigation-clean .navbar-toggler {
@@ -42,6 +47,7 @@
 
 .navigation-clean .navbar-collapse, .navigation-clean .form-inline {
   border-top-color: #ddd;
+  background-color: #0aab71;
 }
 
 .navigation-clean.navbar-light .navbar-nav .nav-link.active, .navigation-clean.navbar-light .navbar-nav .nav-link.active:focus, .navigation-clean.navbar-light .navbar-nav .nav-link.active:hover {
@@ -52,33 +58,39 @@
 }
 
 .navigation-clean.navbar .navbar-nav .nav-link {
-  padding-left: 18px;
-  padding-right: 18px;
+  padding-right: 1.125rem;
+  padding-left: 1.125rem;
 }
 
 .navigation-clean.navbar-light .navbar-nav .nav-link {
-  color: #465765;
+  color: white;
 }
 
 .navigation-clean.navbar-light .navbar-nav .nav-link:focus, .navigation-clean.navbar-light .navbar-nav .nav-link:hover {
-  /*color: #37434d !important;*/
-  background-color: transparent;
+  color: white;
+  background-color: #0aab71;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 .navigation-clean .navbar-nav > li > .dropdown-menu {
-  margin-top: -5px;
+  margin-top: -0.3125rem;
   box-shadow: none;
-  background-color: #fff;
-  border-radius: 2px;
+  border-radius: 0.125rem;
+  background-color: #0aab71;
 }
 
 .navigation-clean .dropdown-menu .dropdown-item:focus, .navigation-clean .dropdown-menu .dropdown-item {
   line-height: 2;
-  color: #37434d;
+  color: white;
+  background-color: #0aab71;
 }
 
-.navigation-clean .dropdown-menu .dropdown-item:focus, .navigation-clean .dropdown-menu .dropdown-item:hover {
-  /*background: #eee;*/
-  /*color: inherit;*/
+.navigation-clean .dropdown-menu .dropdown-item:hover {
+  color: white;
+  background-color: #0aab71;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
 }
-

@@ -1,0 +1,61 @@
+div.jumbotron.carousel-hero {
+  color: #fff;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
+  margin-bottom: 0;
+}
+
+div.jumbotron.hero-nature {
+  background-image: url("../../images/3.jpg");
+}
+
+div.jumbotron.hero-photography {
+  background-image: url("../../images/2.jpg");
+}
+
+div.jumbotron.hero-technology {
+  background-image: url("../../images/3.jpg");
+}
+
+h1.hero-title, h2.hero-title, h3.hero-title {
+  text-shadow: 0 0.1875rem 0.1875rem rgba(0,0,0,0.4);
+  color: #0aab71;
+}
+
+p.hero-subtitle {
+  max-width: 37.5rem;
+  margin: 1.5625rem auto;
+  padding: 0.625rem 0.9375rem;
+  color: #000000;
+}
+
+.plat {
+  border-radius: 0;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 0 0 0 #048f83!important;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #0aab71;
+  border-color: #0aab71;
+}
+
+.btn.btn-primary {
+  background-color: #0aab71;!important;
+  border-color: #0aab71!important;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 0 0 .2rem rgba(0,123,255,.5);
+}
+
+span {
+  font-style: inherit;
+  font-weight: inherit;
+}
