@@ -4,7 +4,6 @@ html {
 }
 
 html, body {
-	margin: 0;
 	padding: 0;
 }
 
@@ -12,11 +11,16 @@ body {
 	display: flex;
 	flex-direction: column;
     font-size: 0.75rem;
+	margin-left: 15% !important;
+	margin-right: 15% !important;
+	width: 70%;
+	background-color: #DCDCDC;
 }
 
 .content {
-	flex: 1 1 auto;
-	overflow-y: scroll;
+	/*flex: 1 1 auto;*/
+	/*overflow-y: scroll;*/
+	background-color: #FFFFFF;
 }
 
 .sticky-footer, .sticky-header {

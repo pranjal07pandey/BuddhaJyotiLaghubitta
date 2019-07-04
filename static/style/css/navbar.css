@@ -6,9 +6,10 @@
   box-shadow: none;
   border: none;
   margin-bottom: 0;
-  position: fixed;
   top: 0;
-  width: 100%;
+  /*margin-left: 15% !important;*/
+  /*margin-right: 15% !important;*/
+  /*width: 70%;*/
   background-color: #0aab71;
   font-size: 1rem;
 }
@@ -104,5 +105,6 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 100%;
-  height: 250px;
+  height: 5rem;
+  position: relative;
 }
