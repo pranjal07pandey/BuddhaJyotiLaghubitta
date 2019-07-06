@@ -33,3 +33,18 @@ body {
 	padding-left: 0.4rem;
 	padding-top: 0.4rem;
 }
+
+/*.affix {*/
+/*	top: 0;*/
+/*	right: 15% !important;*/
+/*	left: 15% !important;*/
+/*	width: 70%;*/
+/*	z-index: 9999 !important;*/
+/*}*/
+
+/*.affix + .container-fluid {*/
+/*	padding-top: 70px;*/
+/*	margin-right: 15%;*/
+/*	margin-left: 15%;*/
+/*	width: 70%;*/
+/*}*/

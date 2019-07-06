@@ -1,4 +1,4 @@
-$(window).scroll(function(){
+$(document).ready(function(){
     if ($(window).scrollTop() == 0) {
         $(".header").removeClass("fixed-top");
     } else {
